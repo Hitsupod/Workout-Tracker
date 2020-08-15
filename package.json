@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Hitsupod/Workout-Tracker/issues"
   },
-  "homepage": "https://github.com/Hitsupod/Workout-Tracker#readme"
+  "homepage": "https://github.com/Hitsupod/Workout-Tracker#readme",
+  "dependencies": {
+    "mongoose": "^5.10.0"
+  }
 }

@@ -48,4 +48,9 @@ router.post("/api/workouts", (req, res) => {
     })
 });
 
+// Put Route
+router.put("/api/workouts/:id", (req, res) => {
+    console.log(req.params.id);
+    console.log(req.body);
+})
 module.exports = router;
